@@ -1,0 +1,71 @@
+html,
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 0);
+}
+
+h1 {
+  font-size: 1em;
+  margin-right: 3em;
+}
+
+button {
+  font-family: inherit;
+  color: rgb(0, 255, 0);
+  background-color: black;
+  border-color: rgb(0, 255, 0);
+  border-style: solid;
+  padding: 0.6em 1em;
+  margin-left: 2em;
+}
+
+.code {
+  font-size: 0.9em;
+  margin-bottom: 3em;
+}
+
+.bottomBar {
+  font-weight: 500;
+  color: black;
+  background-color: rgb(0, 255, 0);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.close-acsess_granted {
+  margin-left: 0em;
+}
+
+.acsess_granted {
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 3em;
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 255, 0);
+  padding: 6em;
+  z-index: 10;
+}
+
+.close-initialized {
+  margin-left: 0em;
+}
+
+.initialized {
+  position: fixed;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 3em;
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 255, 0);
+  padding: 6em;
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
